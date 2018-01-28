@@ -14,6 +14,5 @@
 	img.src="Pics/th" + suffix + ".jpg";
 
 	var newquote = quotes[suffix-1];
-	document.getElementById("maquote").textContent = newquote.quote + "\r\n-" + newquote.author; 
-	//document.getElementById("maquote").textContent = "This is text"; 
+	document.getElementById("maquote").textContent = newquote.quote + "\r\n - " + newquote.author; 
 })();
